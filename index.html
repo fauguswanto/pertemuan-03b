@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas Web Programming Pertemuan 03B</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            background-color: white;
+        }
+
+        h4 {
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .container-1 {
+            max-width: 500px;
+            padding: 20px;
+            margin: 20px;
+        }
+        .container-2 {
+            background-color: #ebf1de;
+            border: 2px solid black;
+            border-radius: 12.5px;
+            padding: 20px;
+            margin-left: 20px;
+            width: 30%;
+        }
+
+        
+        .main-list > li {
+            font-weight: bold;
+            padding-left: 15px;
+            padding-bottom: 10px;
+            text-indent: 20px;
+        }
+
+        li li,
+        .menu-minuman > li > ol > li {
+            font-weight: normal;
+            font-style: normal;
+        } 
+
+        .menu-minuman > li {
+            font-weight: normal;
+            font-style: italic;
+            padding-left: 15px;
+        }
+
+        footer {
+            font-size: 12px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        </style>
+
+</head>
+<body>
+    <div class="flex-container">
+        <div class="container-1">
+            <img src="img/soal_3.png" alt="soal_3">
+        </div>
+
+        <div class="container-2">
+        <h4>Menu:</h4>
+        <ol class="main-list">
+            <li>Makanan:
+                <ol type="A">
+                    <li>Nasi Kuning</li>
+                    <li>Nasi Uduk</li>
+                    <li>Nasi Goreng</li>
+                </ol>
+            </li>
+            <li>Lauk:
+                <ul type="disc">
+                <li>Tahu Goreng</li>
+                    <li>Tempe Goreng</li>
+                    <li>Orek Tempe</li>
+                    <li>Cah Kangkung</li>
+                </ul>
+            </li>
+            <li>Sayur:
+                <ol type="a">
+                    <li>Sayur Asem</li>
+                    <li>Soto Ayam</li>
+                    <li>Sop Iga Sapi</li>
+                </ol>
+            </li>
+            <li>Minuman:
+                <ol type="A" class="menu-minuman">
+                    <li><i>Minuman Dingin:</i>
+                        <ol type="i">
+                            <li>Es Teh Manis</li>
+                            <li>Es Jeruk</li>
+                            <li>Es Campur</li>
+                        </ol>
+                    </li>
+                    <li><i>Minuman Panas:</i>
+                        <ol type="i">
+                            <li>Kopi Hitam</li>
+                            <li>Lemon Tea</li>
+                            <li>Hot Chocolate</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+
+        <footer>
+            <hr>
+            <br>Tugas Web Programming - Pertemuan 03<br>
+            Taniafau Guswanto - 2244190018<br>
+            Teknik Informatika
+        </footer>
+    </div>
+
+</div>
+</body>
+</html>
